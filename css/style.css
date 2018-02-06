@@ -47,3 +47,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.stairs{
+background-image: url("img/SVG/stairs.svg");
+background-color: black;
+color: white;
+}
+
+.stairsText{
+
+}
