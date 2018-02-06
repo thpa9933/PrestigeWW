@@ -47,3 +47,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.paragraph{
+	width: 300px;
+	background-color: black;
+}
+p{
+	color: white;
+
+}
