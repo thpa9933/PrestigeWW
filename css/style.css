@@ -47,13 +47,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+}
+
 
 .stairs{
-background-image: url("img/SVG/stairs.svg");
-background-color: black;
-color: white;
+position: absolute;
+top: calc(50% - 400px);
+left: calc(50% - 400px);
 }
 
 .stairsText{
-
+  position: absolute;
+  top: calc(50% + 70px);
+  left: calc(50% - 350px);
 }
