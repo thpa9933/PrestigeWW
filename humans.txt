@@ -1,0 +1,37 @@
+                                
+/* TEAM */
+
+                            
+Your title: Sharks and Minows
+
+                            
+Site: 
+                           
+Location: Boulder, CO. USA
+
+							
+/* THANKS */
+
+							
+Name: Presteige World Wide: Summer Thompson, Thomas Payne, Christoher Thompson, Ben Gillespie.
+
+
+                            
+/* SITE */
+
+                            
+Last update: 2018/2/8
+
+                            
+Standards: HTML5, CSS3, Js.
+
+                            
+Components: 
+
+                            
+Software: Sublime, github
+       
+                            
+
+
+                    
