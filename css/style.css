@@ -34,7 +34,7 @@ h2{
 	position: absolute;
 	height: 80vh;
 	width: 80vw;
-	left: calc(50% - 300px);
+	left: calc(50% - 340px);
 	top: calc(50% - 316px);
 	margin: 0 auto;
 	z-index: -1;
