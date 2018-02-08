@@ -1,57 +1,87 @@
 /*CSS RESET*/
-html, body, div, ul, li, a,{
-  margin: 0px;
-  padding: 0px;
-  font-size: 15px;
-  font: inherit;
-  vertical-align: baseline;
-  min-width: 0px;
-  letter-spacing: 1px;
+html, body, div, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	font: inherit;
+	vertical-align: baseline;
+	min-width: 0px;
+	letter-spacing: 1px;
 }
-body{
+
+body {
 	background-color: white;
 	margin: 0 auto;
 }
-h1{
+
+h1 {
 	text-align: center;
 }
-h2{
+
+h2 {
 	text-align: center;
 }
-.paragraph{
+
+.paragraph {
 	width: 300px;
 }
-.stairs{
+
+.stairs {
 	position: absolute;
 	height: 80%;
 	left: calc(50% - 300px);
 	top: calc(50% - 350px);
 	margin: 0 auto;
 	z-index: -1;
+
 }
-.stairsTextBox{
+
+.stairsTextBox {
 	position: absolute;
 	left: calc(50% - 300px);
 	top: calc(50% + 20px);
+
 }
-p{
-z-index: 1;
+
+p {
+	z-index: 1;
 }
-nav{
+
+.material-icons.md-48 {
+	font-size: 48px;
+}
+
+nav {
 	text-align: center;
 	position: fixed;
 	top: 0;
-	width:100%;
+	width: 100%;
+	margin:0;
 }
-nav li{
-	display:inline;
+
+nav li {
+	display: inline;
+	padding: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
 }
-a:link{
+
+a:link {
 	text-decoration: none;
-	letter-spacing: 10px;
+	color:black;
 }
-.home{
-	color:yellow;
-	margin-left: 0;
-	margin-right: auto;
+nav a{
+	color:black;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+ul{
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+h1{
+	padding-top:70px;
 }
