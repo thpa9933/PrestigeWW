@@ -12,20 +12,30 @@ body{
 	background-color: white;
 	margin: 0 auto;
 }
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
 .paragraph{
 	width: 300px;
-	background-color: black;
 }
-#stairs{
-	position: fixed;
-	height: 60%;
+.stairs{
+	position: absolute;
+	height: 80%;
+	left: calc(50% - 300px);
+	top: calc(50% - 350px);
 	margin: 0 auto;
-
+	z-index: -1;
+}
+.stairsTextBox{
+	position: absolute;
+	left: calc(50% - 300px);
+	top: calc(50% + 20px);
 }
 p{
-	color: white;
-	background-color: black;
-
+z-index: 1;
 }
 nav{
 	text-align: center;
