@@ -21,9 +21,18 @@ h1 {
 h2 {
 	text-align: center;
 }
+<<<<<<< HEAD
 
 .paragraph {
 	width: 300px;
+=======
+.paragraph{
+	font-size: 15px;
+	position: absolute;
+	width: 250px;
+	left: calc(50% - 267px);
+	top: calc(50% + 78px);
+>>>>>>> 4fe91fa92816ed86e8ed5a99069e0ff2ec6e040f
 }
 
 .stairs {
@@ -71,10 +80,16 @@ a:link {
 	text-decoration: none;
 	color:black;
 }
+<<<<<<< HEAD
 nav a{
 	color:black;
 	padding-top: 30px;
 	margin-top: 30px;
+=======
+
+p{
+	z-index: 1;
+>>>>>>> 4fe91fa92816ed86e8ed5a99069e0ff2ec6e040f
 }
 ul{
 	margin-top: 20px;
