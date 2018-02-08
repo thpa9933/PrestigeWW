@@ -27,3 +27,21 @@ p{
 	background-color: black;
 
 }
+nav{
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width:100%;
+}
+nav li{
+	display:inline;
+}
+a:link{
+	text-decoration: none;
+	letter-spacing: 10px;
+}
+.home{
+	color:yellow;
+	margin-left: 0;
+	margin-right: auto;
+}
