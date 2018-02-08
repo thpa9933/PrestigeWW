@@ -19,7 +19,11 @@ h2{
 	text-align: center;
 }
 .paragraph{
-	width: 300px;
+	font-size: 15px;
+	position: absolute;
+	width: 250px;
+	left: calc(50% - 267px);
+	top: calc(50% + 78px);
 }
 .stairs{
 	position: absolute;
@@ -34,6 +38,7 @@ h2{
 	left: calc(50% - 300px);
 	top: calc(50% + 20px);
 }
+
 p{
-z-index: 1;
+	z-index: 1;
 }
