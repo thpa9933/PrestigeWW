@@ -33,6 +33,7 @@ function change(x){
   if(x == 1){
     console.log(i);
     console.log('forward');
+    $(Pchange[i]).hide();
     i++;
     $(Pchange[i]).slideToggle();
   }
