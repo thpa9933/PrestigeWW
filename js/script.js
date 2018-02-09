@@ -25,8 +25,18 @@ var Pchange = new Array();
   Pchange[1] = ".P2";
   Pchange[2] = ".P3";
   Pchange[3] = ".P4";
-  Pchange[4] = 5;
-  Pchange[5] = 6;
+  Pchange[4] = ".P5";
+  Pchange[5] = ".P6";
+  Pchange[6] = ".P7";
+  Pchange[7] = ".P8";
+  Pchange[8] = ".P9";
+  Pchange[9] = ".P10";
+  Pchange[10] = ".P11";
+  Pchange[11] = ".P12";
+  Pchange[12] = ".P13";
+  Pchange[13] = ".P14";
+  Pchange[14] = ".P15";
+  Pchange[15] = ".P16";
 
 var i = 0;
 function change(x){
@@ -40,7 +50,9 @@ function change(x){
   if(x == 2){
     console.log(i);
     console.log('back');
+    $(Pchange[i]).hide();
     i--;
+    $(Pchange[i]).slideToggle();
   }
 }
 

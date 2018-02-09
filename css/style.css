@@ -26,42 +26,67 @@ p {
 	z-index: 1;
 }
 
+h1{
+}
+
 .P1, .P2, .P3, .P4, .P5, .P6, .P7, .P8, .P9, .P10, .P11, .P12, .P13, .P14, .P15, .P16{
 	border: solid 1px white;
 	border-radius: 30px;
 	font-size: 15px;
 	color: white;
 	position: absolute;
-	width: 250px;
-	left: calc(50% - 267px);
-	top: calc(50% + 78px);
+	width: 210px;
+	left: calc(50% - 290px);
+	top: calc(50% + 70px);
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
 }
 
 .stairs{
+	position:absolute;
 	background-image: url("../img/SVG/stairs.svg");
 	background-repeat: no-repeat;
-	position: absolute;
-	height: 80vh;
-	width: 80vw;
+	height: 600px;
+	width: 80%;
+	max-width: 700px;
 	left: calc(50% - 340px);
-	top: calc(50% - 316px);
+	top: calc(50% - 230px);
 	margin: 0 auto;
 	z-index: -1;
 
 }
-
-.material-icons.md-48 {
-	font-size: 48px;
-}
-
 nav {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.navigation{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row-reverse;
 	text-align: center;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	margin:0;
+	align-items: center;
+}
+.navigateForward{
+	margin: 30px;
+	cursor: pointer;
+}
+.navigateBack{
+	margin: 30px;
+	cursor: pointer;
+}
+.homeIcon{
+	margin: 30px;
+	/*Cursor: pointer;*/
 }
 
+
+
+/*.material-icons.md-48 {
+	font-size: 48px;
+}*/
+/*
 nav li {
 	display: inline;
 	padding: 40px;
@@ -84,7 +109,4 @@ ul{
 	padding-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
-}
-h1{
-	padding-top:70px;
-}
+}*/
