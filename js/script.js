@@ -45,9 +45,9 @@ function change(x){
     else if(i == -1){
       i = 15;
     }
-    $(Pchange[i]).fadeOut(300);
+    $(Pchange[i]).fadeOut(200);
     i++;
-    $(Pchange[i]).delay(400).slideToggle();
+    $(Pchange[i]).delay(300).slideToggle();
   }
   else if(x == 2){
     console.log(Pchange[i], i, "Backward");
@@ -57,9 +57,9 @@ function change(x){
     if(i == -1){
       i = 15;
     }
-    $(Pchange[i]).fadeOut(300);
+    $(Pchange[i]).fadeOut(200);
     i--;
-    $(Pchange[i]).delay(400).slideToggle();
+    $(Pchange[i]).delay(300).slideToggle();
   }
 }
 

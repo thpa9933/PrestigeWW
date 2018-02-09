@@ -15,11 +15,13 @@ body {
 }
 
 h1 {
-	text-align: center;
+	font-family: 'Gloria Hallelujah';
+	text-align: right;
 }
 
 h2 {
-	text-align: center;
+	font-family: 'Gloria Hallelujah';
+	text-align: right;
 }
 
 p {
@@ -47,11 +49,11 @@ h1{
 	position:absolute;
 	background-image: url("../img/SVG/stairs.svg");
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 700px;
 	width: 80%;
-	max-width: 700px;
-	left: calc(50% - 340px);
-	top: calc(50% - 230px);
+	max-width: 730px;
+	left: calc(50% - 375px);
+	top: calc(50% - 290px);
 	margin: 0 auto;
 	z-index: -1;
 
@@ -80,7 +82,14 @@ nav {
 	margin: 30px;
 	/*Cursor: pointer;*/
 }
+.titleBox{
+	position: absolute;
+	font-size: 25px;
+	max-width: 300px;
+	left: calc(50% + 60px);
+	top: calc(50% - 350px);
 
+}
 
 
 /*.material-icons.md-48 {

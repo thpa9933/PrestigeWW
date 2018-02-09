@@ -23,7 +23,7 @@ Name: Presteige World Wide: Summer Thompson, Thomas Payne, Christoher Thompson, 
 Last update: 2018/2/8
 
                             
-Standards: HTML5, CSS3, Js.
+Standards: HTML5, CSS3, JS.
 
                             
 Components: 
