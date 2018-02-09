@@ -1,7 +1,4 @@
 
-// function main(){
-//
-// }
   $('.P1').hide();
   $('.P2').hide();
   $('.P3').hide();
@@ -41,20 +38,31 @@ var Pchange = new Array();
 var i = 0;
 function change(x){
   if(x == 1){
-    console.log(i);
-    console.log('forward');
-    $(Pchange[i]).hide();
+    console.log(Pchange[i], i, "Forward");
+    if(i == 16){
+      i = 0;
+    }
+    else if(i == -1){
+      i = 15;
+    }
+    $(Pchange[i]).fadeOut(300);
     i++;
-    $(Pchange[i]).slideToggle();
+    $(Pchange[i]).delay(400).slideToggle();
   }
-  if(x == 2){
-    console.log(i);
-    console.log('back');
-    $(Pchange[i]).hide();
+  else if(x == 2){
+    console.log(Pchange[i], i, "Backward");
+    if(i == 16){
+      i = 0;
+    }
+    if(i == -1){
+      i = 15;
+    }
+    $(Pchange[i]).fadeOut(300);
     i--;
-    $(Pchange[i]).slideToggle();
+    $(Pchange[i]).delay(400).slideToggle();
   }
 }
+
 
 // var current = 0;
 // function change(x){
