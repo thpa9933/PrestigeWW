@@ -133,8 +133,24 @@ nav {
 	z-index: 1;
 }
 
-dafdasf
-reqrdaf
+@keyframes colorz {
+	25% {background-color: #a2e4ea}
+	50% {background-color: #eaa2dd}
+	75% {background-color: #abeaa2}
+	100% {background-color: #b8a2ea}
+}
+
+.background{
+	width:100%;
+	height:120%;
+	position: fixed;
+	z-index: -2;
+	background-color: #b8a2ea;
+	animation-name: colorz;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
 
 /*.material-icons.md-48 {
 	font-size: 48px;
