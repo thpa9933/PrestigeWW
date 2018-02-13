@@ -28,10 +28,10 @@ p {
 	z-index: 1;
 }
 
-h1{
+h1 {
 }
 
-.P1, .P2, .P3, .P4, .P5, .P6, .P7, .P8, .P9, .P10, .P11, .P12, .P13, .P14, .P15, .P16{
+.P1, .P2, .P3, .P4, .P5, .P6, .P7, .P8, .P9, .P10, .P11, .P12, .P13, .P14, .P15, .P16 {
 	border: solid 1px white;
 	border-radius: 30px;
 	font-size: 15px;
@@ -45,8 +45,8 @@ h1{
 	text-align: justify;
 }
 
-.stairs{
-	position:absolute;
+.stairs {
+	position: absolute;
 	background-image: url("../img/SVG/stairs.svg");
 	background-repeat: no-repeat;
 	height: 700px;
@@ -56,45 +56,90 @@ h1{
 	top: calc(50% - 290px);
 	margin: 0 auto;
 	z-index: -1;
-
 }
+
 nav {
 	display: flex;
 	align-items: center;
 	margin-top: 30px;
 }
-.navigation{
+
+.navigation {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: row-reverse;
 	text-align: center;
 	align-items: center;
 }
-.navigateForward{
+
+.navigateForward {
 	margin: 30px;
 	cursor: pointer;
 }
-.navigateBack{
+
+.navigateBack {
 	margin: 30px;
 	cursor: pointer;
 }
-.homeIcon{
-	margin: 30px;
-	/*Cursor: pointer;*/
+
+.homeIcon {
+	margin: 30px;	/*Cursor: pointer;*/
 }
-.titleBox{
+
+.titleBox {
 	position: absolute;
 	font-size: 25px;
 	max-width: 300px;
 	left: calc(50% + 60px);
 	top: calc(50% - 350px);
-
 }
 
+@keyframes falling {
+	0% {
+		transform: rotate(0deg);
+		left: calc(50% - 375px);
+		top: calc(50% - 500px);
+	}
+
+	25% {
+		transform: rotate(179deg);
+		left: calc(50% - 180px);
+		top: calc(50% - 280px);
+	}
+
+	75% {
+		transform: rotate(360deg);
+		left: calc(50% - 0px);
+		top: calc(50% - 100px)
+	}
+
+	100% {
+		transform: rotate(540deg);
+		left: calc(50% + 220px);
+		top: calc(50% + 100px);
+	}
+
+}
+.T {
+	position: absolute;
+	transform: rotate(0deg);
+	left: calc(50% - 375px);
+	top: calc(50% - 500px);
+	margin: 0 auto;
+	animation-name: falling;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	z-index: 1;
+}
+
+dafdasf
+reqrdaf
 
 /*.material-icons.md-48 {
 	font-size: 48px;
 }*/
+
 /*
 nav li {
 	display: inline;

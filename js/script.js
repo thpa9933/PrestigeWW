@@ -35,6 +35,11 @@ var Pchange = new Array();
   Pchange[14] = ".P15";
   Pchange[15] = ".P16";
 
+  var offsetLeft = 0;
+  var offsetDown = 0;
+
+  
+
 var i = 0;
 function change(x){
   if(x == 1){
